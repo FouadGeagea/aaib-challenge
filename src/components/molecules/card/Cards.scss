@@ -1,0 +1,43 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    @media(max-width: 768px){
+        display: block;
+
+    }
+    .reportId{
+        margin-inline-start: 5px;
+        margin-inline-end: 20px;
+    }
+    
+    .buttonsContainer{
+        margin: 0 25px;
+        @media(max-width: 768px){
+            display: flex;
+            margin: 0 5px;
+        }
+        .buttons{
+            margin: 10px 0;   
+            @media(max-width: 768px){
+                display: flex;
+                width: 50%;
+            }
+                        .button{
+                width: 100px; 
+                height: 30px;    
+                font-weight: bold;  
+                border-radius: 6px;
+                border: 1px solid #000;
+                cursor: pointer;
+              }
+        }
+    }
+}
+
+
+
+
+
+
