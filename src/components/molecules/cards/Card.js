@@ -55,7 +55,6 @@ const Card = () => {
             lastCard: spamTicket.length - 1 === indx || (spamTicket.length - resolvedTickets.length) === indx +1,
           })}
         >
-          {  console.log(spamTicket.length - resolvedTickets.length , indx)}
           <Cards
             isBlocked={blockedTickets.includes(payload.id)}
             state={state}
